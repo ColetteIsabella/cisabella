@@ -1,0 +1,193 @@
+ {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+body {
+  font-family: 'IM Fell DW Pica', sans-serif;
+  background-color: #3a3a3a;
+  color: #fdf286;
+  margin: 1em;
+  text-align: center;
+}
+.centered {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #f9e156;
+}
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.8em;
+}
+p {
+  font-size: 1.9em;
+}
+ul {
+  display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0;
+}
+/*--------header--------*/
+
+header {
+  width: 100%;
+  background-color: #f9e156;
+  color: #3a3a3a;
+}
+.social {
+  text-align: center;
+  margin: 0 25%;
+}
+.central {
+  margin: .5em 5%;
+  height: 10em;
+  width: 10em;
+}
+.stamps {
+  height: 4em;
+  width: 4em;
+  margin: .5em .5em 2em .5em;
+}
+.banner {
+  width: 100%;
+  text-align: center;
+}
+.pages {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: .5rem 1em;
+}
+.pages a{
+  color: #3a3a3a;
+}
+
+/*-----------index-----------*/
+
+.combdky1 {
+  opacity: 0.3;
+  position: fixed;
+  margin-top: -56%;
+  margin-left: 1%;
+  height: 24em;
+  width: auto;
+}
+.combdly1 {
+  opacity: 0.4;
+  position: fixed;
+  margin-top: -39%;
+  margin-left: 11%;
+  height: 29em;
+  width: auto;
+}
+.combwh2 {
+  opacity: 0.3;
+  position: fixed;
+  z-index: -100;
+  margin-top: -74%;
+  margin-left: 64%;
+  height: 40em;
+  width: auto;
+}
+.combdky2 {
+  opacity: 0.3;
+  position: fixed;
+  margin-top: -45%;
+  margin-left: 89%;
+  height: 42em;
+  width: auto;
+}
+.combdly2 {
+  opacity: 0.5;
+  position: fixed;
+  margin-top: -16%;
+  margin-left: -2%;
+  height: 22em;
+  width: auto;
+}
+.combwh1 {
+  opacity: 0.2;
+  position: fixed;
+  margin-top: -13%;
+  margin-left: 80%;
+  height: 25em;
+  width: auto;
+}
+.hello{
+  text-align: center;
+}
+
+#index h2 {
+  font-size: 4rem;
+}
+#index h3 {
+  font-size: 3rem;
+}
+#index h4 {
+  font-size: 3rem;
+}
+/*------------resume----------*/
+#resume {
+  margin: 1em;
+}
+#resume h2{
+  margin: 0;
+  color: #f9e156;
+}
+#resume h3 {
+  margin: 0;
+}
+#resume p {
+  color: #f2e033;
+}
+/*----------404------------*/
+#container {
+  text-align: center;
+}
+#container img {
+  width: 40em;
+  height: auto;
+}
+/*-----------bees-----------*/
+#bees {
+  text-align: center;
+}
+#bees .wonder {
+  width: 40%;
+  height: auto;
+}
+#bees img {
+  width: 70%;
+  height: auto;
+}
+/*------------about--------*/
+#about {
+  text-align: center;
+}
+#about img {
+  width: 40%;
+  height: auto;
+}
