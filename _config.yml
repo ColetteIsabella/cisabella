@@ -33,7 +33,21 @@ plugins:
   #- jekyll-sitemap
 
 #build settings
+#navigation:
+  - text: about
+    url: about/
 
+  - text: friends
+    url: friends/
+
+  - text: bees
+    url: bees/
+
+  - text: games
+    url: games/
+
+  - text: projects
+    url: projects/
 
 disqus_short_name: cisabella
 disqus_show_comment_count: true
