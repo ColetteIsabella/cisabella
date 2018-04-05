@@ -91,6 +91,23 @@ header {
 .pages a{
   color: #3a3a3a;
 }
+@media only screen and (max-width: 800px) {
+.social {
+  margin: 0;
+}
+
+}
+
+/*-----------footer-----------*/
+
+footer {
+  background-color: #f2e033;
+}
+ .footlink{
+  height: 4em;
+  width: 4em;
+  margin: 1em 2em 1em 2em;
+}
 
 /*-----------index-----------*/
 
