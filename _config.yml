@@ -49,6 +49,12 @@ plugins:
   - text: projects
     url: projects/
 
+  - text: shop
+    url: shop/
+
+# bundle exec jekyll serve
+
+
 disqus_short_name: cisabella
 disqus_show_comment_count: true
 # Exclude from processing.

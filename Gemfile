@@ -29,3 +29,10 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
+# Execute bundler hook (analogous to sourcing a dotfile)
+['~/.', '/etc/'].any? do |file|
+ File.lstat(path = File.expand_path(file + 'bundle-gemfile-hook')) rescue next
+ eval(File.read(path), binding, path); break true
+end || source('https://rubygems.org/')
+
+gem 'sass'
