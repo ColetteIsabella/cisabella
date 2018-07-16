@@ -76,7 +76,7 @@ textarea {
   overflow-x: hidden;
   height: 100%;
 }
-
+/*
 body {
   background: #fff;
   min-height: 100%;
@@ -95,7 +95,7 @@ body {
   font-feature-settings: "pnum";
   font-variant-numeric: proportional-nums;
 }
-
+*/
 .globalContent {
   -ms-flex-positive: 1;
   flex-grow: 1;
@@ -288,12 +288,12 @@ body {
     opacity: 1;
   }
 }
-
+/*
 body {
   overflow-x: hidden;
   background-color: #f6f9fc;
 }
-
+*/
 main {
   position: relative;
   display: block;
@@ -651,13 +651,13 @@ main > .container-lg .example .success .reset svg {
   will-change: transform;
 }
 
-footer {
+/*footer {
   position: relative;
   max-width: 750px;
   padding: 50px 20px;
   margin: 0 auto;
 }
-
+*/
 .optionList {
   margin: 6px 0;
 }

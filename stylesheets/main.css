@@ -101,6 +101,7 @@ header {
 /*-----------footer-----------*/
 
 footer {
+  margin-top: 1em;
   background-color: #f2e033;
 }
  .footlink{
@@ -172,6 +173,61 @@ footer {
 }
 #index h4 {
   font-size: 3rem;
+}
+/*------------shop-----------*/
+
+.shoppage {
+  margin: 3em 0 3em 0;
+}
+.forsale {
+  width: 70%;
+}
+.left {
+  width: 46%;
+  float: left;
+  margin: 2%;
+}
+.right {
+  width: 46%;
+  float: right;
+  margin: 2%;
+}
+.total {
+  text-align: center;
+  margin: 2%;
+  width: 100%;
+}
+fieldset .info {
+  width: 100%;
+  font-size: 3rem;
+  float: left;
+}
+label, span {
+  font-size: 2rem;
+}
+legend {
+  font-size: 2rem;
+}
+input {
+  font-size: 1.9rem;
+  color: #3a3a3a;
+  opacity: 60%;
+}
+select, option {
+  font-size: 2rem;
+  font-color: #3a3a3a;
+}
+.form-row, .field {
+  margin-top: 1%;
+}
+.displayed-items{
+  width: 98%;
+  height: auto;
+  margin: 2%;
+}
+
+.submit {
+  margin: 2%;
 }
 /*------------resume----------*/
 #resume {
