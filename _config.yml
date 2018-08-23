@@ -52,6 +52,9 @@ plugins:
   - text: shop
     url: shop/
 
+- text: patreon
+    url: patreon/
+
 # bundle exec jekyll serve
 
 
