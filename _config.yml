@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Anatomy of a Beekeeper
+ - title: Anatomy of a Beekeeper
 email: coletteisabella@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Bees, art, science and tech, this is the site for the continuing adventures of Colette Isabella.
@@ -49,11 +49,11 @@ plugins:
   - text: projects
     url: projects/
 
-  - text: shop
-    url: shop/
+  #- text: shop
+  #  url: shop/
 
-- text: patreon
-    url: patreon/
+#- text: patreon
+ #   url: patreon/
 
 # bundle exec jekyll serve
 

@@ -260,8 +260,14 @@ select, option {
   height: auto;
 }
 #bees img {
-  width: 70%;
+  width: 50%;
   height: auto;
+  border: black solid 1em;
+}
+.beeline {
+  height: .5em;
+  width: 80%;
+  color: #f9e156;
 }
 /*------------about--------*/
 #about {
@@ -324,4 +330,8 @@ select, option {
     border: 3px solid #fff;
   }
 
+  }
+  /*----Patreon----*/
+  .posts {
+    width: 50%;
   }
