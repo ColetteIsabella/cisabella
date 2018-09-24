@@ -255,6 +255,12 @@ select, option {
 #bees {
   text-align: center;
 }
+#bees p {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 #bees .wonder {
   width: 40%;
   height: auto;
@@ -265,7 +271,7 @@ select, option {
   border: black solid 1em;
 }
 .beeline {
-  height: .5em;
+  height: 0;
   width: 80%;
   color: #f9e156;
 }
