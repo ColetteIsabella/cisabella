@@ -249,6 +249,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
   nokogiri (>= 1.10.5)
+  rubyzip (>= 2.0.0)
   sass
   tzinfo-data
 
