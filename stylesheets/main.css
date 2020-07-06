@@ -278,11 +278,18 @@ select, option {
 /*------------about--------*/
 #about {
   text-align: center;
+  margin: 0 10%;
 }
 #about img {
-  width: 40%;
+  width: 25%;
   height: auto;
+  border: 2px solid black;
 }
+/*.me {
+  width: 10%;
+  height: auto;
+
+}*/
 /*------------friends--------*/
 .clearfix {
     overflow: auto;
